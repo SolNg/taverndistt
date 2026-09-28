@@ -15414,7 +15414,7 @@ const Br = { class: "zhino-overview" },
       function l() {
         const e = s.value;
         (n.updateSettings({ statePatchEnabled: e ? {} : { ...i } }),
-          (0, qe.fH)("Chế độ đầu ra", e ? "Đã chuyển về xuất đầy đủ" : "Đã chuyển sang đầu ra MUV"));
+          (0, qe.fH)("Chế độ đầu ra", e ? "Đã chuyển về xuất đầy đủ" : "Đã chuyển sang đầu ra MVU"));
       }
       const c = (0, D.computed)(() => en(n.chatData)),
         d = (0, D.ref)(!1),
@@ -16497,7 +16497,7 @@ const Br = { class: "zhino-overview" },
                     onClick: l,
                   },
                   (0, D.toDisplayString)(
-                    (0, D.unref)(s) ? "MUV · Bật" : "MUV · Tắt",
+                    (0, D.unref)(s) ? "MVU · Bật" : "MVU · Tắt",
                   ),
                   3,
                 ),
@@ -16531,7 +16531,7 @@ const Br = { class: "zhino-overview" },
                 { class: "zhino-mode-note" },
                 [
                   (0, D.createTextVNode)(
-                    " Chế độ đầu ra：cấu trúc đầu ra MUV —— chỉ xuất phần thay đổi（tiết kiệm token hơn，các trường không đề cập được giữ nguyên，và nếu đầu ra bị cắt，các mục phía trước vẫn có thể được giữ lại）。",
+                    " Chế độ đầu ra：cấu trúc đầu ra MVU —— chỉ xuất phần thay đổi（tiết kiệm token hơn，các trường không đề cập được giữ nguyên，và nếu đầu ra bị cắt，các mục phía trước vẫn có thể được giữ lại）。",
                   ),
                   (0, D.createElementVNode)("br"),
                   (0, D.createTextVNode)(
